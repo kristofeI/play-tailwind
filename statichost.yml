@@ -1,0 +1,6 @@
+# Static HTML + Tailwind CSS (v4)
+# Build runs in /repo (repository root)
+image: node:20
+command: npm install && npm run build
+# Site root: HTML at repo root, CSS in src/css
+public: .

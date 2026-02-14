@@ -5,6 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/css/tailwind.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/css/tailwind.css",
     "serve": "npx serve",
     "start": "npx concurrently \"npm run dev\" \"npm run serve\""
   },
